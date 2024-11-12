@@ -12,12 +12,14 @@ public class Person {
         this.lastName = lastName;
     }
 
-    // why is this called a GETTER??
+    // why is this called a GETTER?? because it returns the private value first name
     public String getFirstName() {
+
         return firstName;
     }
 
     public String getLastName() {
+
         return lastName;
     }
 
